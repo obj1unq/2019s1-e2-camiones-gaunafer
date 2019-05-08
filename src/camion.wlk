@@ -4,7 +4,9 @@ object camion {
 	const property cosas = []
 	
 	method cargar(unaCosa) {
+		unaCosa.cargar()
 		cosas.add(unaCosa)
+		
 	}
 	method descargar(unaCosa) {
 		cosas.remove(unaCosa)
